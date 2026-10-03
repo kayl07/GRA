@@ -3,6 +3,38 @@
 
 <head>
     <title>Sunshine Bakery|Kaylyn Ligorria</title>
+	<style>
+		body {
+		margin: 0;
+		}
+		wrapper{
+			width: 1000px;
+			display: block;
+			margin: auto;
+		}
+		h1{
+			display: inline;
+		}
+		.logo {
+			vertical-align:middle;
+			width: 200px;
+		}
+		header{
+			text-align: center;
+			background-color:burlywood;
+		}
+		.banner{
+			width: 100%;
+		}
+		.container{
+			display:grid;
+			grid-template-columns: 25% 75%;
+			gap: 16px;
+		}
+		li{
+			margin-bottom: 8px;
+		}
+	</style>
 </head>
 
 <body>
@@ -10,7 +42,8 @@
 <wrapper>
 
 <header>
-    <img src="Bakery.png" alt="Sunshine Bakery logo">
+    <img src="Bakery.png" 
+		 class="logo"/>
     <h1>Sunshine Bakery&trade;</h1>
 </header>
 
@@ -27,7 +60,7 @@
         sharing with family and friends. Enjoy &lsquo;a little taste of happiness&rsquo;
         with every bite!
     </p>
-
+<div class="container">
     <section>
 
         <h3>Ingredients</h3>
@@ -86,7 +119,7 @@
         </ol>
 
     </section>
-
+</div>
 </main>
 
 <footer>
