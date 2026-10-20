@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited!</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 25px 15px;
+            font-family: Georgia, serif;
+
+            background-image: url("Sunset GIFs - Find & Share on GIPHY.gif");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .invitation {
+            max-width: 500px;
+            width: 100%;
+            background: rgba(30, 12, 10, 0.55);
+            text-align: center;
+            padding: 45px 30px;
+            border: 2px solid rgba(255, 238, 210, 0.85);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(2px);
+        }
+
+        .top-text {
+            font-family: Arial, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-size: 12px;
+            color: #fff0d5;
+            text-shadow: 1px 2px 5px #28100a;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: normal;
+            color: #ffffff;
+            margin: 20px 0 10px;
+            text-shadow: 2px 3px 8px #321008;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #fff0d5;
+            font-style: italic;
+            text-shadow: 1px 2px 5px #28100a;
+        }
+
+        .divider {
+            width: 70px;
+            height: 3px;
+            background: #ffe2a8;
+            margin: 25px auto;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #ffffff;
+            text-shadow: 1px 2px 5px #28100a;
+        }
+
+        .details {
+            margin: 25px 0;
+            line-height: 2;
+            color: #ffffff;
+            text-shadow: 1px 2px 5px #28100a;
+        }
+
+        .details strong {
+            display: block;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ffdfa0;
+        }
+
+        .rsvp {
+            display: inline-block;
+            padding: 14px 30px;
+            background: #fff0d5;
+            color: #572014;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            transition: 0.3s;
+        }
+
+        .rsvp:hover {
+            background: #ffb347;
+            color: #351009;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #fff0d5;
+            font-style: italic;
+            text-shadow: 1px 2px 5px #28100a;
+        }
+
+        /* Disclaimer footer below the invitation */
+        .page-footer {
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto 0;
+            padding: 14px 20px;
+            background: rgba(30, 12, 10, 0.72);
+            border: 1px solid rgba(255, 238, 210, 0.75);
+            border-radius: 4px;
+            color: #fff3dc;
+            text-align: center;
+            font-family: Georgia, serif;
+            font-size: 11px;
+            line-height: 1.6;
+            text-shadow: 1px 1px 3px #28100a;
+        }
+
+        .page-footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 15px 12px;
+                background-attachment: scroll;
+            }
+
+            .invitation {
+                padding: 35px 20px;
+            }
+
+            h1 {
+                font-size: 38px;
+            }
+
+            .description {
+                font-size: 15px;
+            }
+
+            .page-footer {
+                padding: 12px;
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="invitation">
+
+        <p class="top-text">A Special Invitation</p>
+
+        <h1>Let's Escape</h1>
+
+        <p class="subtitle">
+            Somewhere beautiful, together.
+        </p>
+
+        <div class="divider"></div>
+
+        <p class="description">
+            Leave your worries behind and join us
+            for an unforgettable day filled with
+            sunshine, laughter, and good memories.
+        </p>
+
+        <div class="details">
+            <strong>Destination</strong>
+            Sunset Beach, Florida
+
+            <br>
+
+            <strong>Date</strong>
+            Saturday, November 14, 2026
+
+            <br>
+
+            <strong>Time</strong>
+            4:00 PM until sunset
+        </div>
+
+        <a class="rsvp"
+           href="mailto:your-email@example.com?subject=RSVP">
+            COUNT ME IN
+        </a>
+
+        <p class="footer">
+            Good company. Beautiful views. Great memories.
+        </p>
+
+    </main>
+
+    <footer class="page-footer">
+        <p>© Kaylyn Ligorria, 2026. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+    </footer>
+
+</body>
+</html>
